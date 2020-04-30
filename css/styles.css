@@ -1,0 +1,137 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #eaf6f6;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.brain- {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.ps4- {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.self- {
+  width: 30%;
+  margin: auto;
+}
+
+.exp {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+  background-color: #11cdd4;
+  border-radius: 8px;
+  border: 1px solid #22d3e3;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #2f6627;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+  background-color: #11999e;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75em;
+  padding: 20px 0;
+}
